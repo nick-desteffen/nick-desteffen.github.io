@@ -1,34 +1,27 @@
-title: Nick's Site
+title: Nick DeSteffen's Blog
 author: Nick DeSteffen
 
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Nick DeSteffen's blog and personal website
 
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.nickdesteffen.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/"
+url: "https://www.nickdesteffen.com"
 
 github_username:  nick-desteffen
 twitter_username: NickDesteffen
+linkedin_username: nickdesteffen
+stackoverflow_username: nick-desteffen
 
 collections:
   - setup
 
-# disqus:
-#   shortname:
-
-# Minimaless date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minimaless:
   date_format: "%b %-d, %Y"
 preview_posts: true
 permalink: /blog/:title
-paginate: 10 # increase this value to reflect how many posts per page you want
+paginate: 5
 paginate_path: "/page:num/"
 
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
 header_pages:
   - about.md
   - contact.md
@@ -42,7 +35,7 @@ plugins:
   - jekyll-paginate
 
 markdown: kramdown
-remote_theme: brettinternet/minimaless # uncomment to allow GitHub to build for GitHub Pages - https://github.com/blog/2464-use-any-theme-with-github-pages
+remote_theme: brettinternet/minimaless
 
 include:
   - _pages
@@ -65,67 +58,3 @@ exclude:
   - package.json
   - Rakefile
   - tmp
-
-
-
-
-
-
-
-# # Welcome to Jekyll!
-# #
-# # This config file is meant for settings that affect your whole blog, values
-# # which you are expected to set up once and rarely edit after that. If you find
-# # yourself editing this file very often, consider using Jekyll's data files
-# # feature for the data you need to update frequently.
-# #
-# # For technical reasons, this file is *NOT* reloaded automatically when you use
-# # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-# #
-# # If you need help with YAML syntax, here are some quick references for you: 
-# # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# # https://learnxinyminutes.com/docs/yaml/
-# #
-# # Site settings
-# # These are used to personalize your new site. If you look in the HTML files,
-# # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# # You can create any custom variable you would like, and they will be accessible
-# # in the templates via {{ site.myvariable }}.
-
-# title: Nick's Blog
-# description: >- # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: NickDeSteffen
-# github_username:  nick-desteffen
-
-# # Build settings
-# remote_theme: brettinternet/minimaless
-
-# plugins:
-#   - jekyll-feed
-
-# paginate: 5
-# permalink: /blog/:title
-# # Exclude from processing.
-# # The following items will not be processed, by default.
-# # Any item listed under the `exclude:` key here will be automatically added to
-# # the internal "default list".
-# #
-# # Excluded items can be processed by explicitly listing the directories or
-# # their entries' file path in the `include:` list.
-# #
-# # exclude:
-# #   - .sass-cache/
-# #   - .jekyll-cache/
-# #   - gemfiles/
-# #   - Gemfile
-# #   - Gemfile.lock
-# #   - node_modules/
-# #   - vendor/bundle/
-# #   - vendor/cache/
-# #   - vendor/gems/
-# #   - vendor/ruby/

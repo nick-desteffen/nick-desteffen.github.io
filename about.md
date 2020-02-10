@@ -4,15 +4,11 @@ title: About
 permalink: /about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm Nick DeSteffen. I live in Chicago, Illinois and I've been a software engineer for for over 15 years.
+I started out programming in Java/J2EE and moved into Ruby / Rails about 12 years ago.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I am currently working at [BenchPrep](https://benchprep.com){:target="_blank"} as Lead Software Engineer.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Previously I was a co-founder and Lead Developer at WisePatient, which was acquired by [Sharecare Inc.](https://www.sharecare.com/){:target="_blank"} in early 2012.
 
-
-[jekyll-organization]: https://github.com/jekyll
+Some of my hobbies include Camping & Hiking, Astronomy, Board Games, Biking, Computer Gaming, Homebrewing, Gardening, and Woodworking.
