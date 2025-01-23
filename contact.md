@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-[Twitter](https://twitter.com/NickDeSteffen)
+[Bluesky](https://bsky.app/profile/nick.desteffen.com)
 
 [GitHub](https://github.com/nick-desteffen)
 
