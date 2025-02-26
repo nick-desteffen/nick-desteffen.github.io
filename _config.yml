@@ -5,10 +5,9 @@ description: >
   Nick DeSteffen's blog and personal website
 
 baseurl: "/"
-url: "https://www.nickdesteffen.com"
+url: "https://nick.desteffen.com"
 
 github_username:  nick-desteffen
-twitter_username: NickDesteffen
 linkedin_username: nickdesteffen
 stackoverflow_username: nick-desteffen
 
